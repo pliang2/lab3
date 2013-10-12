@@ -14,7 +14,8 @@ article {
 	background-color: #FFF;
 	margin-top: 20px;
 	margin-bottom: 20px;
-	margin: 0 auto;
+	margin-left: auto;
+	margin-right: auto;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
 }
@@ -28,6 +29,11 @@ header {
 	float: right;
 	height: 60px;
 	opacity: 0.7;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	-ms-transition: all 0.2s ease;
+	transition: all 0.2s ease; 
 }
 
 .logo:hover {
@@ -38,4 +44,36 @@ h1 {
 	font-family: 'Cantora One', sans-serif;
 	font-size: 200%;
 	color: #EEEDEA;
+}
+
+figure {
+	display: inline-block;
+	padding: 10px;
+	background-color: #FFF;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	-ms-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+}
+
+figcaption {
+	font-weight: 300;
+	text-align: center;
+	margin-top: 5px;
+}
+
+.animal-pic {
+	width: 200px;
+	border: 10px solid #EEE;
+	border-radius: 2px;
+}
+
+figure:hover {
+	box-shadow: 2px 2px 6px #555;
+	-webkit-transform: scale(1.5);
+	-moz-transform: scale(1.5);
+	-o-transform: scale(1.5);
+	-ms-transform: scale(1.5);
+	transform: scale(1.5);
 }
